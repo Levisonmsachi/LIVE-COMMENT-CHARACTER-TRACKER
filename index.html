@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comment Box</title>
+  <script src="index.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6 font-sans">
+  <h2 class="bg-blue-500 rounded-2xl shadow-2xl p-8 mb-8 text-xl font-extrabold text-center text-white text-shadow-2xs">LIVE COMMENT CHARACTER TRACKER</h2>
+  <div class="max-w-xl mx-auto bg-white p-9 rounded-xl shadow-2xl">
+    <h2 class="text-2xl font-bold mb-9 text-center">💬 Leave a Comment</h2>
+
+    <input id="live-input" type="text" placeholder="Type your comment here..."
+      class="w-full p-2 border  border-gray-300 rounded mb-4" />
+
+      <p id="char-count" class="text-2xl text-gray-600 mt-5 mb-5 text-center">📝 0 characters typed</p>
+
+      <div class="grid grid-cols-1 mt-7">
+        <button id="reset-comment"
+          class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+          Reset Comment
+        </button>
+
+      </div>
+
+  </div>
+
+</body>
+</html>
